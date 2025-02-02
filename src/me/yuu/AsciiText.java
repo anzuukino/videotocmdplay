@@ -23,6 +23,7 @@ public class AsciiText {
         System.out.print(output.toString());
         System.out.flush();
         Thread.sleep(25);
+
     }
     private static char[][] setAsciiText(int[][] BrightnessMatrix){
         char [][] asciiMatrix = new char[BrightnessMatrix.length][BrightnessMatrix[0].length];
