@@ -38,7 +38,7 @@ public class Main {
         System.out.println(video_path);
         File outputDir = new File(output_path);
         if (!outputDir.exists()) {
-            outputDir.mkdirs(); // Tạo thư mục nếu chưa tồn tại
+            outputDir.mkdirs();
         }else{
             return;
         }
